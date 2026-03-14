@@ -1,1 +1,41 @@
 # Blockchain-smart-contract
+🚀 Ethereum Smart Contracts using Truffle & Ganache
+
+This project demonstrates Ethereum smart contract development using Truffle and Ganache.
+The contracts are compiled, deployed, and tested on a local blockchain network.
+The project includes two example smart contracts:
+->🪙 MetaCoin – a simple token transfer contract
+->🔧 ConvertLib – a utility library used by MetaCoin
+The contracts are compiled using Solidity 0.8.21 and deployed through Truffle to a Ganache local blockchain.
+
+📌 Project Overview
+This repository shows the complete workflow of Ethereum smart contract development:
+1️⃣ Writing smart contracts in Solidity
+2️⃣ Compiling contracts using Truffle
+3️⃣ Deploying contracts to a local blockchain (Ganache)
+4️⃣ Viewing accounts, transactions, blocks, and contracts
+
+🛠️ Technologies Used
+💻 Solidity (v0.8.21)
+⚙️ Truffle Framework
+⛓️ Ganache
+🟢 Node.js
+🌐 Ethereum Blockchain
+The compiler configuration is defined in the Truffle configuration file.
+
+📂 Project Structure
+project-folder
+│
+├── contracts/
+│   ├── ConvertLib.sol
+│   └── MetaCoin.sol
+│
+├── migrations/
+│   └── deployment scripts
+│
+├── test/
+│   └── contract test files
+│
+├── truffle-config.js
+│
+└── README.md
