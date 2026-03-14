@@ -39,3 +39,53 @@ project-folder
 ├── truffle-config.js
 │
 └── README.md
+
+📜 Smart Contracts
+🔧 ConvertLib
+ConvertLib is a Solidity library used for basic token value conversions.
+✨ Features:
+->Reusable smart contract library
+->Utility functions
+->Used by the MetaCoin contract
+
+🪙 MetaCoin
+MetaCoin is a sample cryptocurrency contract that allows users to:
+💸 Send tokens to other accounts
+🔍 Check account balances
+🔄 Demonstrate blockchain transactions
+
+🧪 Local Blockchain Setup
+This project uses Ganache to simulate a local Ethereum blockchain.
+Ganache provides:
+👥 Test accounts
+💰 Free ETH for transactions
+⛏️ Real-time block mining
+📊 Transaction tracking
+
+
+🧱 Blocks
+Ganache automatically mines blocks when transactions occur.
+Each block contains:
+🔢 Block number
+⏰ Mining timestamp
+⛽ Gas used
+🔗 Transactions included
+
+
+🔁 Transactions
+Transactions include:
+📦 Contract deployment
+💱 Token transfers
+⚡ Smart contract function calls
+Each transaction includes:
+🔑 Transaction hash
+👤 Sender address
+📍 Contract addres
+⛽ Gas used
+
+📦 Deployed Contracts
+The following contracts were successfully deployed:
+| Contract          Status     |
+| --------------    ---------- |
+| 🔧 ConvertLib  | ✅ Deployed |
+| 🪙 MetaCoin    | ✅ Deployed |
